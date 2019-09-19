@@ -1,0 +1,26 @@
+ *HOW TO START ON EXPRESS.JS*
+
+- download and install node.js
+
+- create a folder
+
+- open it in vs code
+
+- open the terminal and type "npm init -y"  to create packages including json file
+
+- in the terminal, type "npm i -D nodemon"
+
+- in package.json file, find "scripts" object and inside of it type
+	"start": "node index",
+	"dev": "nodemon index"
+	- this would auto rerun node in every changes you make
+
+- npm run dev, to start it
+
+- terminal - "npm i body-parser"
+
+- code on the top, let bodyParser = require('body-parser');
+
+- after that, code:
+	app.use(bodyParser.urlencoded({ extended: false }));
+	app.use(bodyParser.json());
