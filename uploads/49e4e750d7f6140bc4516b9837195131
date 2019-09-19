@@ -1,0 +1,28 @@
+show dbs - shows all databases
+
+show collections - shows all collections at the current database
+
+
+use <database name> - creates database and switches on to it
+		    - swithces to database that exist
+
+
+db - shows on what current database are you at
+
+
+db.createUser() - creates a new user for the database on which the method is run
+
+
+db.createCollection(<collection name>) - creates collection or table if in sql
+
+
+db.<collection name>.insert({key: value}) - inserts data to selected collection
+
+
+db.<collection>.find() - gives the list of documents in the current collection
+
+
+db.<collection>.update({key value pair, the document looking for}, {<update row>})
+
+
+db.<collection>.remove() - removes that collection
